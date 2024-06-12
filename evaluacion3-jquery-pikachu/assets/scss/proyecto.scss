@@ -1,0 +1,85 @@
+//fuente
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+//framework
+@import "../bootstrap-5.3.3/scss/bootstrap.scss";
+
+//estilos
+
+
+.containerpokemon{
+    background-image: url(../img/pokemon.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 980px;
+    position: relative;
+}
+.mover {
+    position: absolute;
+}
+.cuerpopikachu {
+    position: absolute;
+    top: 290px;
+    left: 100px;
+    height: 650px;
+    width: auto;
+
+}
+
+.ojo-left{
+    position: absolute;
+    top: 540px;
+    left: 236px;
+    width: auto;
+    height: 52px;
+
+}
+
+.ojo-right{
+
+    position: absolute;
+    top: 537px;
+    left: 352px;
+    width: auto;
+    height: 52px;
+
+}
+
+.boca {
+    position: absolute;
+    top: 575px;
+    left: 276px;
+    width: auto;
+    height: 53px;
+
+
+}
+
+.brazo-left{
+    position: absolute;
+    top: 660px;
+    left: 210px;
+    width: auto;
+    height: 140px;
+
+}
+.brazo-right{
+    position: absolute;
+    top: 660px;
+    left: 335px;
+    width: auto;
+    height: 140px;
+
+}
+
+.cola {
+    position: absolute;
+    top: 390px;
+    left: 390px;
+    width: auto;
+    height: 350px;
+
+}
+.botones {
+    background-color: black;
+}
